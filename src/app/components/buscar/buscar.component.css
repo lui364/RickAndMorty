@@ -1,0 +1,24 @@
+.buscar{
+    display: flex;
+    margin-right: 20px;
+}
+
+button{
+    color: white;
+    background-color: black;
+}
+
+button:hover{
+    color: white;
+}
+input{
+    border: solid 1px;
+}
+
+p{
+ color: red;
+ font-size: 20px;
+ margin: 0;
+ padding: 0;
+ text-align:start;
+}

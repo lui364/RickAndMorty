@@ -1,0 +1,31 @@
+<section class="section1">
+    <h1>Rick and Morty</h1>
+</section>
+
+<section class="section2">
+   <div class="card1">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-lg-4 mt-3" *ngFor="let listado of listCharacter">
+                <div class="card" >
+                    <img [src]="listado.image" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title title">{{listado.name}}</h5>
+                      <li [class.green]="listado.status === 'Alive'"
+                                [class.red]="listado.status === 'Dead'"
+                                [class.cris]="listado.status === 'unknown'"
+                                class="fa-solid fa-circle">
+                            </li>
+
+                      <p class="card-text mt-2">{{listado.status}}</p>
+                      <p class="card-text mt-2">{{listado.species}}</p>
+                      <p class="card-text">{{listado.gender}}</p>
+                      <p class="card-text">{{listado.created | date}}</p>
+                     
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+   </div>
+</section>

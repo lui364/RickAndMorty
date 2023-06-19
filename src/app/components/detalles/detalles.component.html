@@ -1,0 +1,27 @@
+
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-lg-6 offset-3 image" style="margin-top: -25px;">
+                    <div class="card1" *ngIf="listCharacter | async as listado">
+                        <img [src]="listado.image" class="card-img-top" alt="...">
+                        <div class="card-body" style="margin-top: -18px;">
+                          <h5 class="card-title title">{{listado.name}}</h5>
+                          
+                          <i 
+                          [class.green]="listado.status ==='Alive'"
+                          [class.red]="listado.status ==='Dead'"  
+                          class="fa-solid fa-circle"></i>
+                           
+                          <p class="card-text mt-2">{{listado.species}}</p>
+                          <p class="card-text">{{listado.gender}}</p>
+                          <p class="card-text">{{listado.created | date}}</p>
+                          <button class="btn btn-primary btn-block" routerLink="/listado">Back</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    

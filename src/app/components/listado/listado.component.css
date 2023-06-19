@@ -1,0 +1,25 @@
+.card1{
+    background:rgb(39, 43, 51);
+}
+.card{
+    background-color: #545455;
+}
+
+p{
+    color: white;
+}
+h5{
+    color: white;
+    font-size: 28px;
+}
+img{
+    width: 220px;
+    height: 280px;
+}
+
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}

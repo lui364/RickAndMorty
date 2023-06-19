@@ -1,0 +1,34 @@
+<div class="card1">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-lg-4" *ngFor="let listado of listCharacter">
+
+                <div class="card mb-3">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img [src]="listado.image" class="rounded-start">
+                      </div>
+                      <div class="col-md-8" style="height: 250px;">
+                        <div class="card-body" style="margin-left: 70px;">
+                          <h5 class="card-title title">{{listado.name | slice:0:16}}</h5>
+                         
+                            <li [class.green]="listado.status === 'Alive'"
+                                [class.red]="listado.status === 'Dead'"
+                                [class.cris]="listado.status === 'unknown'"
+                                class="fa-solid fa-circle">
+                            </li>
+                       
+                          <p class="card-text">{{listado.status}}</p>
+                          <p class="card-text">{{listado.species}}</p>
+                          <p class="card-text">{{listado.gender}}</p>
+                          <p class="card-text" style="margin-top: -12px;"><small class="text-body-secondary">{{listado.created | date}}</small></p>
+                          <button class="btn btn-primary btn-block" (click)="detalles(listado.id)">Ver</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+    </div>
+</div>

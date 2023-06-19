@@ -1,0 +1,28 @@
+img{
+    width: 300px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.card1{
+background-color: black;
+}
+
+p{
+    color: white;
+}
+
+h5{
+    color: white;
+    font-size: 30px;
+}
+
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
