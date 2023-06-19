@@ -8,7 +8,7 @@ import { ToastrService } from 'ngx-toastr';
   styleUrls: ['./buscar.component.css']
 })
 export class BuscarComponent {
-  constructor(private router:Router,private toastrService:ToastrService){}
+ constructor(private router:Router,private toastrService:ToastrService){}
 
 
   buscar(user:any){
