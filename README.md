@@ -1,12 +1,12 @@
 # RickAndMorty
-
+INICIO
 [![5923592-Postimages-Google-Chrome-1-7-2023-4-56-08-p-m-2.png](https://i.postimg.cc/44MQBK9M/5923592-Postimages-Google-Chrome-1-7-2023-4-56-08-p-m-2.png)](https://postimg.cc/JtNXhzKc)
 
 
-
+BUSCADOR
 [![5923592-Postimages-Google-Chrome-1-7-2023-4-55-34-p-m-2.png](https://i.postimg.cc/j5xM0GxF/5923592-Postimages-Google-Chrome-1-7-2023-4-55-34-p-m-2.png)](https://postimg.cc/3yqX2fDX)
 
-
+MAS DETALLES DEL PERSONAJE
 [![5923592-Postimages-Google-Chrome-1-7-2023-4-55-45-p-m-2.png](https://i.postimg.cc/Nf3bfyGT/5923592-Postimages-Google-Chrome-1-7-2023-4-55-45-p-m-2.png)](https://postimg.cc/dL9G5Vyt)
 
 
