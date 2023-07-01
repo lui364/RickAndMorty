@@ -1,5 +1,15 @@
 # RickAndMorty
 
+[![5923592-Postimages-Google-Chrome-1-7-2023-4-56-08-p-m-2.png](https://i.postimg.cc/44MQBK9M/5923592-Postimages-Google-Chrome-1-7-2023-4-56-08-p-m-2.png)](https://postimg.cc/JtNXhzKc)
+
+
+
+[![5923592-Postimages-Google-Chrome-1-7-2023-4-55-34-p-m-2.png](https://i.postimg.cc/j5xM0GxF/5923592-Postimages-Google-Chrome-1-7-2023-4-55-34-p-m-2.png)](https://postimg.cc/3yqX2fDX)
+
+
+[![5923592-Postimages-Google-Chrome-1-7-2023-4-55-45-p-m-2.png](https://i.postimg.cc/Nf3bfyGT/5923592-Postimages-Google-Chrome-1-7-2023-4-55-45-p-m-2.png)](https://postimg.cc/dL9G5Vyt)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
 ## Development server
